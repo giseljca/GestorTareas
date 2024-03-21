@@ -40,8 +40,9 @@ while True:
     print("1. Agregar tarea")
     print("2. Listar tareas")
     print("3. Completar tarea")
-    print("4. Eliminar tarea")
-    print("5. Salir")
+    print("4.Editar tarea")
+    print("5. Eliminar tarea")
+    print("6. Salir")
 
     opcion = int(input("Seleccione una opción: "))
 
@@ -52,8 +53,10 @@ while True:
     elif opcion == 3:
         completar_tarea()
     elif opcion == 4:
-        eliminar_tarea()
+        editar_tarea()
     elif opcion == 5:
+        eliminar_tarea()
+    elif opcion == 6:
         break
     else:
         print("Opción no válida.")
